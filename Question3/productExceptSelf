@@ -1,3 +1,5 @@
+//Given an integer array nums, return an array result such that result[i] is the product of all elements in nums except nums[i]. You must solve it without division and in O(n) time complexity.
+
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         
