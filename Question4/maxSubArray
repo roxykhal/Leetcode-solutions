@@ -1,0 +1,18 @@
+//Given an integer array nums, find the contiguous subarray(containing at least one number), which has the largest sum and return its num
+
+class Solution {
+    public int nums[0](int [] nums) {
+
+        currentSum = 0;
+        maxSum = nums[0]; //initialised to 0 so it resets the array incase theres a neg starting point in array 
+
+        for (int i = 0; i<nums.length; i++) {
+            if(currentSum < 0) { //if sum is less than 0 and negative we reset it to 0
+                currentSum = 0;
+            }
+            currentSum = currentSum + nums[i]; //each time we iterate over an element nums[i] we are adding to currentsum, updating the total sum of currentSum
+            maxSum = Math.max(currentSum, maxSum); //alogorithm comparing a,b to see which value is bigger
+        }
+        return maxSum;
+    }
+}
