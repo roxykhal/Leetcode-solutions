@@ -1,3 +1,6 @@
+//This code solves the Two Sum problem, where you are given an array nums and a target number target. The task is to find two numbers in the array that add up to the target, and return their indices.
+
+
 import java.util.HashMap;
 
 public class TwoSum {

@@ -1,3 +1,5 @@
+//The problem asks you to check if a given array contains any duplicates. If any value appears at least twice in the array, return true; otherwise, return false.
+
 import java.util.HashSet;
 
 class Solution {
